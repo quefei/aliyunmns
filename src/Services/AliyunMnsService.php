@@ -27,7 +27,7 @@ class AliyunMnsService implements AliyunMnsContract
      * @param  array   $templateParam
      * @return string  用户发送的每次接口调用请求，无论成功与否，系统都会返回一个唯一识别码 RequestId 给用户
      */
-    public function sendMessage($phoneNumber, $signName, $templateCode, array $templateParam = [])
+    public function send($phoneNumber, $signName, $templateCode, array $templateParam = [])
     {
         /**
          * Step 1. 初始化Client
