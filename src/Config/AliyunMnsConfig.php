@@ -11,7 +11,7 @@ return [
     |
     */
 
-    'AccessKeyID' => env('ALIYUN_MNS_ACCESS_KEY_ID'),
+    'AccessKeyID' => env('ALIYUN_ACCESS_KEY_ID'),
 	
 	/*
     |--------------------------------------------------------------------------
@@ -22,7 +22,7 @@ return [
     |
     */
 
-    'AccessKeySecret' => env('ALIYUN_MNS_ACCESS_KEY_SECRET'),
+    'AccessKeySecret' => env('ALIYUN_ACCESS_KEY_SECRET'),
 	
 	/*
     |--------------------------------------------------------------------------
