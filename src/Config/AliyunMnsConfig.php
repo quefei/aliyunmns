@@ -1,14 +1,5 @@
 <?php
 
-/******************************************************************************
-
-ALIYUN_MNS_ACCESS_KEY_ID=
-ALIYUN_MNS_ACCESS_KEY_SECRET=
-ALIYUN_MNS_ENDPOINT=
-ALIYUN_MNS_TOPIC_NAME=
-
-******************************************************************************/
-
 return [
 
     /*
