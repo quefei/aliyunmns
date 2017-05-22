@@ -49,10 +49,25 @@
 在 `.env` 文件中加入以下，它们的值从阿里云的 `控制台` 获取：
 
 ```php
+  /**
+   * 加入以下
+   */
+   
   ALIYUN_MNS_ACCESS_KEY_ID=
   ALIYUN_MNS_ACCESS_KEY_SECRET=
   ALIYUN_MNS_ENDPOINT=
   ALIYUN_MNS_TOPIC_NAME=
+  
+  
+  
+  /**
+   * 列如（假设的值）
+   */
+   
+  ALIYUN_MNS_ACCESS_KEY_ID=L6d644013c2414ab
+  ALIYUN_MNS_ACCESS_KEY_SECRET=Tb2ed79818ac6498f72c45bf0b17d0
+  ALIYUN_MNS_ENDPOINT=http://1234567890123456.mns.cn-shenzhen.aliyuncs.com
+  ALIYUN_MNS_TOPIC_NAME=sms.topic-cn-shenzhen
 ```
 
 
