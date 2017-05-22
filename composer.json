@@ -1,0 +1,22 @@
+{
+    "name": "quefei/aliyunmns",
+    "description": "AliyunMns for Laravel 阿里云短信服务",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan",
+            "email": "ivan@youzi.com.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.7",
+        "illuminate/support": "5.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Quefei\\AliyunMns\\": "src/"
+        }
+    }
+}
