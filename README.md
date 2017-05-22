@@ -34,6 +34,15 @@
 
 
 
+### 3. 生成配置文件：
+
+
+```php
+  php artisan vendor:publish
+```
+
+
+
 
 ## （二）配置
 
