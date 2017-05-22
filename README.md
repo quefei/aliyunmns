@@ -11,7 +11,7 @@
 
 
 ```php
-  composer require quefei/aliyunmns:dev-master
+  composer require quefei/aliyunmns
 ```
 
 
