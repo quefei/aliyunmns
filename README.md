@@ -6,7 +6,7 @@
 ## （一）安装
 
 
-1.安装：
+### 1. 安装：
 
 ```php
   composer require quefei/aliyunmns:dev-master
