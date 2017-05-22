@@ -49,19 +49,14 @@
 在 `.env` 文件中加入以下，它们的值从阿里云的 `控制台` 获取：
 
 ```php
-	ALIYUN_MNS_ACCESS_KEY_ID=
-	ALIYUN_MNS_ACCESS_KEY_SECRET=
-	ALIYUN_MNS_ENDPOINT=
-	ALIYUN_MNS_TOPIC_NAME=
+  ALIYUN_MNS_ACCESS_KEY_ID=
+  ALIYUN_MNS_ACCESS_KEY_SECRET=
+  ALIYUN_MNS_ENDPOINT=
+  ALIYUN_MNS_TOPIC_NAME=
 ```
 
 
 
 
-## （二）配置
-
-
-
-
-## （三）使用
+## （二）使用
 
