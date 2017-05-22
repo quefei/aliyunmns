@@ -8,7 +8,7 @@
 
 01 安装：
 
-composer require quefei/aliyunmns dev-master
+`composer require quefei/aliyunmns dev-master`
 
 
 
