@@ -19,14 +19,14 @@
 ### 2. 注册：
 
 
-(1) 在 `config/app.php` 文件的 `providers` 数组中加入：
+在 `config/app.php` 文件的 `providers` 数组中加入：
 
 ```php
   Quefei\AliyunMns\Providers\AliyunMnsServiceProvider::class,
 ```
 
 
-(2) 在 `config/app.php` 文件的 `aliases` 数组中加入：
+在 `config/app.php` 文件的 `aliases` 数组中加入：
 
 ```php
   'MNS' => Quefei\AliyunMns\Facades\MNS::class,
@@ -65,19 +65,33 @@
 手机号码、短信签名、短信模板是 `字符串`，模板参数是数组的 `键值对`：
 
 ```php
-  // 导入
+  /**
+   * 导入
+   */
+   
   use Quefei\AliyunMns\Facades\MNS;
   
-  // 使用1：一个模板参数时
+  
+  
+  /**
+   * 使用
+   */
+   
+  // 一个模板参数时
   MNS::send("手机号码", "短信签名", "短信模板", ["模板参数的键" => "模板参数的值"]);
   
-  // 使用2：多个模板参数时
+  // 多个模板参数时
   MNS::send("手机号码", "短信签名", "短信模板", ["键" => "值", "键" => "值", "键" => "值"]);
   
-  // 使用3：没有模板参数时
+  // 没有模板参数时
   MNS::send("手机号码", "短信签名", "短信模板");
   
-  // 列如
+  
+  
+  /**
+   * 列如
+   */
+  
   MNS::send("13688889999", "东方公司", "SMS_12345678", ["customer" => "东方用户"]);
 ```
 
