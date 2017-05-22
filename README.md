@@ -1,22 +1,13 @@
-# AliyunMns for Laravel　阿里云短信服务    
+# AliyunMns for Laravel　阿里云短信服务
 
-## 安装    
 
-composer require quefei/aliyunmns dev-master    
 
-config/app.php    
+# （一）安装
 
-providers 数组中：    
 
-Quefei\AliyunMns\Providers\AliyunMnsServiceProvider::class,    
 
-aliases 数组中：    
+# （二）配置
 
-'MNS' => Quefei\AliyunMns\Facades\MNS::class,    
 
-php artisan vendor:publish    
 
-ALIYUN_MNS_ACCESS_KEY_ID=    
-ALIYUN_MNS_ACCESS_KEY_SECRET=    
-ALIYUN_MNS_ENDPOINT=    
-ALIYUN_MNS_TOPIC_NAME=    
+# （三）使用
