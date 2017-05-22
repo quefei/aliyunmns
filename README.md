@@ -19,14 +19,14 @@
 ### 2. 注册：
 
 
-(1) 在 config/app.php 文件的 providers 数组中加入：
+(1) 在 `config/app.php` 文件的 `providers` 数组中加入：
 
 ```php
   Quefei\AliyunMns\Providers\AliyunMnsServiceProvider::class,
 ```
 
 
-(2) 在 config/app.php 文件的 aliases 数组中加入：
+(2) 在 `config/app.php` 文件的 `aliases` 数组中加入：
 
 ```php
   'MNS' => Quefei\AliyunMns\Facades\MNS::class,
