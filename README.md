@@ -43,7 +43,9 @@
 
 
 
-### 4. 环境配置：
+
+## （二）配置
+
 
 
 在 `.env` 文件中加入以下，它们的值从阿里云的 `控制台` 获取：
@@ -51,6 +53,7 @@
 ```php
   /**
    * 加入以下
+   * 
    */
    
   ALIYUN_ACCESS_KEY_ID=
@@ -61,19 +64,23 @@
   
   
   /**
-   * 列如（假设的值）
+   * 例如（假设的值）
+   * 
    */
    
-  ALIYUN_ACCESS_KEY_ID=L6d644013c2414ab
-  ALIYUN_ACCESS_KEY_SECRET=Tb2ed79818ac6498f72c45bf0b17d0
-  ALIYUN_MNS_ENDPOINT=http://1234567890123456.mns.cn-shenzhen.aliyuncs.com
-  ALIYUN_MNS_TOPIC_NAME=sms.topic-cn-shenzhen
+  // 短信服务与邮件推送
+  ALIYUN_ACCESS_KEY_ID=L6d644013c2414ab                                        // Access Key ID
+  ALIYUN_ACCESS_KEY_SECRET=Tb2ed79818ac6498f72c45bf0b17d0                      // Access Key Secret
+  
+  // 短信服务
+  ALIYUN_MNS_ENDPOINT=http://1234567890123456.mns.cn-shenzhen.aliyuncs.com     // Mns Endpoint
+  ALIYUN_MNS_TOPIC_NAME=sms.topic-cn-shenzhen                                  // 主题名称
 ```
 
 
 
 
-## （二）使用
+## （三）使用
 
 
 
@@ -82,6 +89,7 @@
 ```php
   /**
    * 导入
+   *
    */
    
   use Quefei\AliyunMns\Facades\MNS;
@@ -90,6 +98,7 @@
   
   /**
    * 使用
+   *
    */
    
   // 一个模板参数时
@@ -104,7 +113,8 @@
   
   
   /**
-   * 列如
+   * 例如
+   *
    */
   
   MNS::send("13688889999", "东方公司", "SMS_12345678", ["customer" => "东方用户"]);
